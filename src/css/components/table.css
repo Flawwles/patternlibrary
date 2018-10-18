@@ -1,0 +1,33 @@
+table {
+  border: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border: 0;
+}
+tr:nth-child(even) {
+  background: var(--oc-gray-2)
+
+}
+
+td, th {
+  border: 0;
+  padding: 16px 8px;
+  text-align: left;
+}
+
+th {
+  font-weight: 700;
+}
+
+
+td:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px
+}
+td:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px
+}

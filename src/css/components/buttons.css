@@ -1,0 +1,16 @@
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 3px;
+  border: 1px solid #999;
+}
+
+textarea {
+  min-height: 8rem;
+}
+
+label {
+  padding-bottom: 4px;
+  line-height: 34px;
+}

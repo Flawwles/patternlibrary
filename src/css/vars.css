@@ -1,0 +1,12 @@
+:root {
+  /*Paddings*/
+  --padding--large: 2rem;
+
+  --size--x1: 0.25rem;
+  /*Colors*/
+  --background--default: #efefef;
+  --background--white: #fff;
+  --background--dark: #1B393D;
+  --font--default: #efefef;
+  --font--dark: #1B393D;
+}

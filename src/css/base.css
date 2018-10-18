@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box
+}
+
+h1, h2, h3, h4, h5, p, ul, label, button, input, table, th, td, body {
+  font-family: Montserrat, sans-serif;
+  color: var(--oc-gray-8);
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding: 14px 0;
+}
+
+li {
+  padding: 8px 0;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--oc-blue-4);
+  color: var(--oc-blue-4);
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  border-bottom: 2px solid var(--oc-blue-8);
+  color: var(--oc-blue-8);
+}
