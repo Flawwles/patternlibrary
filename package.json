@@ -8,7 +8,4 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "open-color": "^1.6.3"
-  }
 }
