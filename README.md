@@ -1,1 +1,2 @@
-# First solo run at a CSS only & JS supported pattern library
+# Pattern library
+First solo run at a CSS only & JS supported pattern library
