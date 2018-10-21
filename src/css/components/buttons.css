@@ -1,16 +1,28 @@
-input, textarea {
-  display: block;
-  width: 100%;
-  padding: 8px 16px;
+.button {
+  font-size: 14px;
+  background: var(--oc-gray-2);
+  color: var(--oc-gray-9);
+  border: 1px solid var(--oc-gray-3);
+  padding: 12px 16px;
   border-radius: 3px;
-  border: 1px solid #999;
+  font-weight: 700;
+  letter-spacing: 0.0522rem;
+  transition: all .3s ease;
 }
 
-textarea {
-  min-height: 8rem;
+.button:hover {
+  transform: translateY(-2px);
+  background: var(--oc-gray-1);
 }
 
-label {
-  padding-bottom: 4px;
-  line-height: 34px;
+
+/* GREEN */
+.button--green {
+  background: var(--oc-green-2);
+  color: var(--oc-green-9);
+  border: 1px solid var(--oc-green-3);
+}
+
+.button--green:hover {
+  background: var(--oc-green-1);
 }

@@ -1,0 +1,21 @@
+code {
+  display: inline-block;
+  width: auto;
+  background: var(--oc-yellow-0);
+  color: hsla(50, 100%, 23%, 1);
+  padding: 2px 8px;
+  border-radius: 2px;
+  transform: skewX(-1deg);
+  transform: rotate(-1deg);
+  font-variant-ligatures: no-common-ligatures;
+  font-family: monospace;
+  margin: 0;
+  user-select: all;
+  word-break: break-all;
+}
+
+
+code.text {
+  background: var(--oc-gray-0);
+  color: hsla(210, 17%, 40%, 1)
+}

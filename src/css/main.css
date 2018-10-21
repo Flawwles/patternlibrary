@@ -2,23 +2,35 @@
 /*Base*/
 /*----------------------------------*/
 
-/*Reset */
+/* Reset */
 @import url("./reset.css");
-/*Variables */
+/* Variables */
 @import url("./vars.css");
+/* Utility */
+@import url("./utility.css");
+/* Type */
+@import url("./type.css");
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
-/*Grid */
+/* Grid */
 @import url("./grid.css");
-/*Base*/
+/* Base */
 @import url("./base.css");
-/*Scroll*/
-@import url("./scroll.css");
+/* Code */
+@import url("./code.css");
 
 
 /*----------------------------------*/
 /*Components*/
 /*----------------------------------*/
 
-/*Buttons*/
+/*all*/
 @import url("./components/all.css");
+
+
+/*----------------------------------*/
+/*Extra*/
+/*----------------------------------*/
+
+/* Scroll */
+@import url("./scroll.css");

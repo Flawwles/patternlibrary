@@ -1,0 +1,20 @@
+.u-outline {
+  border: 1px solid var(--oc-gray-1);
+  border-radius: 3px;
+}
+.caps {
+  text-transform: uppercase;
+}
+
+body .u-offset-top-s {
+  margin-top: 8px;
+}
+body .u-offset-top-m {
+  margin-top: 16px;
+}
+body .u-offset-top-l {
+  margin-top: 32px;
+}
+body .u-offset-top-xl {
+  margin-top: 64px;
+}
