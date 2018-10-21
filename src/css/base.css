@@ -43,10 +43,19 @@ h5 {
 
 ul {
   padding: 14px 0;
+  list-style-position: inside;
+}
+
+ul > li > ul {
+  padding: 0;
+  padding-left: 24px;
 }
 
 li {
   padding: 8px 0;
+}
+li:last-child {
+  padding: 0;
 }
 
 a {
